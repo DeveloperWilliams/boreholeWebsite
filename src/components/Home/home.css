@@ -1,0 +1,145 @@
+.home {
+  height: calc(100vh - 110px);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgb(10, 10, 1)), url("./hero.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  padding: 70px 120px;
+  padding-bottom: 70px;
+  justify-content: center;
+  justify-content: center;
+  gap: 50px;
+}
+@media screen and (max-width: 1024px) {
+  .home{
+    padding: 30px;
+    height: 44vh;
+    padding-bottom: 60px;
+  }
+}
+@media screen and (max-width: 540px) {
+  .home{
+    padding: 30px 20px;
+    height: 60vh;
+  }
+}
+@media screen and (max-width: 540px) {
+  .home{
+    padding: 30px 20px;
+    height: 55vh;
+  }
+}
+@media  (max-width: 540px) and (max-height: 850px){
+  .home{
+    padding: 10px 20px;
+    height: 61vh;
+  }
+}
+@media screen and (max-width: 400px) {
+  .home{
+    padding: 30px 20px;
+    height: 65vh;
+  }
+}
+.home h2 {
+  z-index: 900;
+  color: ghostwhite;
+  font-size: 45px;
+  font-family: "Amaranth", sans-serif;
+}
+@media screen and (max-width: 540px) {
+  .home h2{
+    font-size: 30px;
+  }
+}
+.home h2 em {
+  color: #5f9ea0;
+}
+.home p {
+  width: 65%;
+  font-size: 19px;
+  font-family: "Itim", cursive;
+  color: ghostwhite;
+  line-height: 1.7;
+  font-family: "Josefin Sans", sans-serif;
+}
+@media screen and (max-width: 1024px) {
+  .home p{
+   width: 90%;
+  }
+}
+@media screen and (max-width: 540px) {
+  .home p{
+   width: 100%;
+  }
+}
+.home div {
+  display: flex;
+  gap: 40px;
+  margin-top: 10px;
+}
+@media screen and (max-width: 540px) {
+  .home div{
+    gap: 30px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .home div{
+    gap: 30px;
+    flex-direction: column;
+  }
+}
+.home div a {
+  text-decoration: none;
+  padding: 10px 40px;
+  text-align: center;
+}
+@media screen and (max-width: 540px) {
+  .home div a{
+    padding: 10px 25px;
+  }
+}
+.home-get {
+  background-color: #5f9ea0;
+  color: ghostwhite;
+  font-family: "Josefin Sans", sans-serif;
+  transition: .35s ease-out;
+}
+.home-get:hover{
+  transform: translateY(-8px);
+}
+.home-about{
+  color: ghostwhite;
+  font-family: "Josefin Sans", sans-serif;
+  border: 2px solid ghostwhite;
+}
+@media screen and (max-width: 400px) {
+  .home-about{
+    display: none;
+  }
+}
+
+/* Home Fixed*/
+.home-fixed{
+  position: absolute;
+  right: 0;
+  bottom: 6%;
+  position: fixed;
+  z-index: 1000;
+}
+.call-fixed{
+  height: 55px;
+  animation: scaling 1.5s ease-out infinite;
+}
+@keyframes scaling {
+  0%{
+    transform: scale(1.0);
+  }
+  50%{
+    transform: scale(1.15);
+  }
+  100%{
+    transform: scale(1.0);
+  }
+}

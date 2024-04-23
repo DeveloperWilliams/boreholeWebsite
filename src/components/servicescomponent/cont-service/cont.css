@@ -1,0 +1,94 @@
+.services-cont {
+  padding: 70px 120px;
+  background-color: gainsboro;
+  background-color: #5f9ea0;
+  display: flex;
+  gap: 50px;
+}
+@media screen and (max-width: 1024px) {
+    .services-cont{
+        flex-direction: column;
+        padding: 70px 50px;
+    }  
+}
+.services-cont .left {
+  flex: 1.2;
+}
+.services-cont .left {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+.services-cont .left h6 {
+  font-size: 20px;
+  font-family: "Acme", sans-serif;
+  color: ghostwhite;
+}
+.services-cont .left h6 em{
+    color: #b46108;
+    line-height: 1.5;
+    font-style: normal;
+}
+.services-cont .left p {
+  font-size: 20px;
+  color: grey;
+  font-family: "Josefin Slab", serif;
+  font-weight: 900;
+  color: ghostwhite;
+}
+.services-cont .right {
+  flex: 2;
+}
+.services-cont .right form {
+  display: flex;
+  width: 100%;
+  gap: 30px;
+}
+@media screen and (max-width: 600px){
+    .services-cont .right form {
+        flex-direction: column;
+    } 
+}
+.services-cont .right form div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+.services-cont .right form input {
+  height: 45px;
+  border: 0px;
+  background-color: ghostwhite;
+  outline: 1px solid #5f9ea0;
+  font-family: "Josefin Slab", serif;
+  padding: 0px 10px;
+}
+.services-cont .right form textarea {
+  width: 100%;
+  height: 70%;
+  border: 0px;
+  background-color: ghostwhite;
+  outline: 1px solid #5f9ea0;
+  font-family: "Josefin Slab", serif;
+  padding: 10px 10px;
+  font-size: 17px;
+}
+@media screen and (max-width: 600px){
+    .services-cont .right form textarea {
+        height: 180px;
+    } 
+}
+.services-cont .right form button {
+  height: 20%;
+  border: 0px;
+  background-color: #ed820e;
+  font-family: "Josefin Slab", serif;
+  color: ghostwhite;
+  font-size: 18px;
+  cursor: pointer;
+}
+@media screen and (max-width: 600px){
+    .services-cont .right form button {
+        height: 35px;
+    } 
+}

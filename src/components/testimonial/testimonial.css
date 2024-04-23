@@ -1,0 +1,74 @@
+.testimonial {
+  padding: 50px 120px;
+  background-color: aliceblue;
+}
+@media screen and (max-width: 540px) {
+  .testimonial{
+    padding: 50px 10px;
+  }
+}
+.testimonial .top {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.testimonial .top h4 {
+  font-family: "Amaranth", sans-serif;
+  font-size: 18px;
+  font-size: 34px;
+  color: #5f9ea0;
+}
+.testimonial .top h5 {
+  font-family: "Josefin Slab", serif;
+  font-size: 18px;
+  color: grey;
+}
+.testimonial .bottom {
+  margin-top: 30px;
+  display: flex;
+  overflow-x: auto;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+.testimonial .container {
+  width: 300%;
+  display: flex;
+}
+.testimonial .bottom .cards {
+  width: 100%;
+  flex-shrink: 0;
+  text-align: center;
+  padding: 10px 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+@media screen and (max-width: 540px) {
+  .testimonial .bottom .cards{
+    padding:  10px;
+  }
+}
+.testimonial .bottom .cards img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 2px dotted #5f9ea0;
+}
+.testimonial .bottom .cards p {
+  font-family: "Josefin Sans", sans-serif;
+  line-height: 1.5;
+  font-weight: 300;
+  font-size: 20px;
+  font-weight: 300;
+}
+.testimonial .bottom .cards h6{
+    font-family: "Josefin Slab", serif;
+    font-size: 20px;
+    color: #5f9ea0;
+    font-style: italic;
+}

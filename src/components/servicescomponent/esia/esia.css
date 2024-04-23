@@ -1,0 +1,112 @@
+.esia {
+    background-color: aliceblue;
+  }
+  .esia .top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 30px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgb(10, 10, 1)),
+      url("./wind.webp");
+    background-position: center;
+    background-size: cover;
+    height: 330px;
+    background-repeat: no-repeat;
+  }
+  .esia .top h6 {
+    font-family: "Josefin Slab", serif;
+    font-size: 18px;
+    color: ghostwhite;
+  }
+  .esia .top h5 {
+    font-family: "Amaranth", sans-serif;
+    font-size: 18px;
+    font-size: 34px;
+    color: #5f9ea0;
+  }
+  
+  .esia .bottom {
+    padding: 10px 120px;
+    margin-top: 40px;
+    padding-bottom: 50px;
+  }
+  @media screen and (max-width: 1024px) {
+    .esia .bottom {
+      padding: 50px 20px;
+    }
+  }
+  .esia #bottom {
+    padding: 10px 120px;
+    padding-bottom: 40px;
+  }
+  @media screen and (max-width: 1024px) {
+    .esia #bottom {
+      padding: 50px 20px;
+    }
+  }
+  .esia .bottom .upper {
+    display: flex;
+    gap: 20px;
+  }
+  @media screen and (max-width: 700px) {
+    .esia .bottom .upper {
+      flex-direction: column;
+    }
+  }
+  
+  .esia #bottom .upper {
+    flex-direction: row-reverse;
+  }
+  @media screen and (max-width: 700px) {
+    .esia #bottom .upper {
+      flex-direction: column;
+    }
+  }
+  .esia .bottom .upper .one {
+    flex: 1.1;
+  }
+  .esia .bottom .upper .one img {
+    height: 100%;
+    width: 100%;
+  }
+  .esia .bottom .upper .two {
+    flex: 1;
+    padding: 10px;
+  }
+  .esia .bottom .upper .two h6 {
+    font-family: "Amaranth", sans-serif;
+    font-size: 18px;
+    font-size: 24px;
+    color: #5f9ea0;
+    line-height: 1.3;
+  }
+  .esia .bottom .upper .two p {
+    font-family: "Josefin Sans", sans-serif;
+    line-height: 1.5;
+    font-weight: 300;
+    margin-top: 20px;
+    font-size: 19px;
+  }
+  .esia .bottom .upper ul img {
+    height: 20px;
+  }
+  .esia .bottom .upper ul {
+    list-style: none;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    padding-left: 20px;
+  }
+  .esia .bottom .upper ul li {
+    display: flex;
+    align-items: center;
+    align-items: start;
+    gap: 10px;
+    font-family: "Josefin Slab", serif;
+    line-height: 1.4;
+    font-size: 19px;
+  }
+  

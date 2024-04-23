@@ -1,0 +1,160 @@
+.header {
+  padding: 0px 100px;
+  height: 80px;
+  background-color: ghostwhite;
+  display: flex;
+  align-items: center;
+  z-index: 1000;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  justify-content: space-around;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+@media screen and (max-width: 1024px) {
+  .header {
+    display: none;
+  }
+}
+.header ul, .header-phone ul {
+  list-style: none;
+  display: flex;
+  gap: 35px;
+}
+.header ul li a, .header-phone ul li a {
+  text-decoration: none;
+  font-family: "Josefin Slab", serif;
+  font-family: "Josefin Sans", sans-serif;
+  color: grey;
+}
+.header ul li a:hover, .header-phone ul li a:hover{
+  color: #5f9ea0;
+}
+.header ul li, .header-phone ul li  {
+  font-family: "Josefin Slab", serif;
+  font-family: "Josefin Sans", sans-serif;
+  color: grey;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 400;
+}
+.header ul li p, .header-phone ul li p{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  transition: 2s ease;
+}
+.header ul li p img, .header-phone ul li p img{
+  transition: .45s ease;
+}
+.header ul li p:hover img, .header-phone ul li p:hover img{
+  transform: rotate(-360deg);
+}
+.header-phone ul li{
+  color: #5f9ea0;
+}
+.header ul li:hover ul, .header-phone ul li:hover ul{
+  display: flex;
+}
+/** hover services  */
+.header ul li ul, .header-phone ul li ul{
+  gap: 0px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  background-color: ghostwhite;
+  padding-top: 30px;
+  display: none;
+  border-bottom: 2px solid #5f9ea0;
+}
+.header-phone ul li ul{
+  padding-top: 10px;
+}
+.header-phone ul li ul{
+  position: relative;
+  border-bottom: 0px solid #5f9ea0;
+  padding-left: 10px;
+}
+.header ul li ul li, .header-phone ul li ul li{
+  border-bottom: 0.05vw solid #5f9ea0;
+  padding: 15px;
+  text-align: center;
+}
+.header-phone ul li ul li{
+  text-align: left;
+}
+.header ul li ul li:hover, .header-phone ul li ul li:hover{
+  background-color: #5f9ea0;
+}
+.header ul li ul li a, .header-phone ul li ul li a{
+  color: #808080;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Josefin Slab", serif;
+  padding: 15px;
+  width: 100%;
+}
+.header ul li ul li a:hover, .header-phone ul li ul li a:hover{
+  color: ghostwhite;
+}
+.logo img {
+  width: 140px;
+  height: 70px;
+}
+.header .get {
+  text-decoration: none;
+  padding: 10px 22px;
+  background-color:  #5f9ea0;
+  color: ghostwhite;
+  font-family: "Josefin Sans", sans-serif;
+  transition: .25s ease-out;
+}
+.header .get:hover{
+  background-color: #494F55;
+}
+
+/**   Header Phone*/
+
+@media screen and (min-width: 1025px) {
+  .header-phone {
+    display: none;
+  }
+}
+.header-phone {
+  height: 80px;
+  background-color: ghostwhite;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+.header-phone .top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 20px;
+}
+.menu{
+  height: 55px;
+}
+.geo{
+  height: 45px;
+}
+.header-phone .bottom{
+  background-color: ghostwhite;
+  padding: 30px 20px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-top: 1px solid #5f9ea0;
+  display: none;
+}
+.header-phone .bottom a{
+  text-decoration: none;
+  color: #5f9ea0;
+  font-family: "Josefin Sans", sans-serif;
+}

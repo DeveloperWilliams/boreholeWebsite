@@ -1,0 +1,206 @@
+.about-div {
+  background-color: gainsboro;
+  padding: 120px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+@media screen and (max-width: 1024px) {
+  .about-div {
+    padding: 120px 50px;
+  }
+}
+@media screen and (max-width: 544px) {
+  .about-div {
+    padding: 70px 20px;
+    padding-bottom: 30px;
+  }
+}
+.about-div .top {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.about-div .top h4 {
+  font-size: 34px;
+  font-family: "Amaranth", sans-serif;
+  color: #5f9ea0;
+}
+.about-div .top h5 {
+  font-family: "Josefin Slab", serif;
+  font-size: 18px;
+  color: grey;
+}
+.about-div .bottom {
+  margin-top: 30px;
+  display: flex;
+  gap: 20px;
+}
+@media screen and (max-width: 820px) {
+  .about-div .bottom {
+    flex-direction: column-reverse;
+  }
+}
+.about-div .left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.about-div .right {
+  flex: 1;
+}
+.about-div .right img {
+  width: 100%;
+}
+.about-div .left .vision,
+.about-div .left .mission {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.about-div .left h6,
+.philosophy h6,
+.policies h6 {
+  font-family: "Amaranth", sans-serif;
+  font-size: 20px;
+  color: #5f9ea0;
+}
+.about-div .left p {
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Josefin Slab", serif;
+  font-weight: 300;
+  line-height: 1.5;
+  font-size: 19px;
+  font-weight: 500;
+}
+.vision ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 13px;
+}
+.vision ul li {
+  font-family: "Josefin Slab", serif;
+  display: flex;
+  align-items: center;
+  align-items: start;
+  gap: 5px;
+  font-size: 18px;
+  line-height: 1.3;
+}
+.mark {
+  height: 25px;
+}
+.about-div .left a {
+  text-decoration: none;
+  background-color: #5f9ea0;
+  color: ghostwhite;
+  padding: 8px 20px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+/* Lower**/
+
+.about-div .lower {
+  margin-top: 50px;
+}
+.philosophy div {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  margin-top: 20px;
+  row-gap: 10px;
+  column-gap: 10px;
+}
+.philosophy p {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+  text-wrap: wrap;
+  white-space: wrap;
+  line-height: 1.3;
+  display: flex;
+  align-items: start;
+  gap: 10px;
+  padding: 0px 20px;
+  font-size: 18px;
+}
+@media screen and (max-width: 540px) {
+  .philosophy p{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+  }
+}
+.philosophy p em {
+  color: #5f9ea0;
+  font-weight: 800;
+  font-family: "Josefin Slab", serif;
+  text-wrap: nowrap;
+  font-size: 18px;
+}
+@media screen and (max-width: 540px) {
+  .philosophy p em{
+   padding: 0 -20px;
+   font-size: 18px;
+  }
+}
+p img {
+  height: 20px;
+}
+
+.policies {
+  margin-top: 30px;
+  display: flex;
+  gap: 30px;
+  align-items: stretch;
+}
+@media screen and (max-width: 820px) {
+  .policies {
+    flex-direction: column;
+  }
+}
+.policies .left,
+.policies .right {
+  flex: 1;
+}
+
+.policies .left img {
+  width: 100%;
+}
+.policies p {
+  margin-top: 10px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+  line-height: 1.4;
+  font-size: 18px;
+}
+.policies ul {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  row-gap: 10px;
+  padding: 0px 20px;
+}
+.policies ul li {
+  font-family: "Josefin Slab", serif;
+  line-height: 1.3;
+  display: flex;
+  font-size: 18px;
+  gap: 10px;
+}
+.policies ul li em {
+  color: #5f9ea0;
+  font-weight: 800;
+  font-family: "Josefin Slab", serif;
+  text-wrap: nowrap;
+}
+.policies ul li img {
+  height: 20px;
+  display: none;
+}

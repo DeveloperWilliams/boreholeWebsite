@@ -1,0 +1,125 @@
+.quote {
+  padding: 120px;
+  padding-top: 70px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+@media screen and (max-width: 1024px) {
+    .quote{
+        padding:50px 0px;
+        padding-bottom: 40px;
+    }
+}
+.quote .top {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.quote h6 {
+  font-family: "Josefin Slab", serif;
+  font-size: 18px;
+  color: grey;
+}
+.quote h5 {
+  font-size: 34px;
+  font-family: "Amaranth", sans-serif;
+  color: #5f9ea0;
+}
+@media screen and (max-width: 300px) {
+    .quote h5{
+        font-size: 25px;
+    } 
+}
+.quote .bottom {
+  margin-top: 30px;
+  padding: 0px 200px;
+}
+@media screen and (max-width: 1024px) {
+    .quote .bottom{
+      padding: 0px 100px;
+    }
+}
+@media screen and (max-width: 540px) {
+    .quote .bottom{
+      padding: 0px 50px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .quote .bottom{
+      padding: 0px 20px;
+    }
+}
+.quote form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.quote form select {
+  width: 100%;
+  font-family: "Josefin Slab", serif;
+  outline: 1px solid #5f9ea0;
+  border: 0px;
+  background-color: aliceblue;
+}
+.quote form input {
+  width: 100%;
+  height: 39px;
+  font-family: "Josefin Slab", serif;
+  padding: 0px 10px;
+  outline: 1px solid #5f9ea0;
+  background-color: aliceblue;
+  border: 0px;
+  font-size: 16px;
+}
+.quote form div {
+  display: flex;
+  gap: 20px;
+}
+@media screen and (max-width: 400px) {
+    .quote form div{
+      flex-direction: column;
+    }
+    .quote form select{
+        height: 35px;
+    }
+}
+.quote textarea {
+  resize: none;
+  width: 100%;
+  height: 240px;
+  border: 0px;
+  font-family: "Josefin Slab", serif;
+  padding: 20px;
+  outline: 1px solid #5f9ea0;
+  font-size: 18px;
+  background-color: aliceblue;
+}
+@media screen and (max-width: 300px) {
+    .quote textarea{
+        height: 160px;
+    } 
+}
+.quote form .btn {
+  display: flex;
+  justify-content: right;
+}
+.quote button {
+  padding: 8px 45px;
+  font-family: "Josefin Slab", serif;
+  background-color: #5f9ea0;
+  border: 0px;
+  color: ghostwhite;
+  cursor: pointer;
+  transition: .25s ease-out;
+  font-size: 17px;
+}
+@media screen and (max-width: 1024px) {
+  .quote button{
+    padding: 13px 57px;
+  }
+}
+.quote button:hover{
+    background-color: grey;
+}

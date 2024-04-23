@@ -1,0 +1,193 @@
+.services-div {
+  padding: 60px 120px;
+  background-color: #dcdcdc;
+}
+@media screen and (max-width: 1024px) {
+  .services-div {
+    padding: 30px;
+    padding-top: 50px;
+  }
+}
+@media screen and (max-width: 540px) {
+  .services-div {
+    padding: 20px;
+    padding-top: 50px;
+  }
+}
+.services-div .top {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.services-div h5 {
+  font-family: "Josefin Slab", serif;
+  font-size: 18px;
+  color: grey;
+}
+.services-div h4 {
+  font-family: "Amaranth", sans-serif;
+  font-size: 18px;
+  font-size: 34px;
+  color: #5f9ea0;
+}
+.services-div .bottom {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 30px;
+  gap: 30px;
+}
+@media screen and (max-width: 1024px) {
+  .services-div .bottom {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 540px) {
+  .services-div .bottom {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+.services-div .bottom .cards {
+  height: 550px;
+  background-color: ghostwhite;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  overflow: hidden;
+  flex-direction: column;
+}
+.services-div .bottom .cards:hover img {
+  transition: 0.5s;
+  transform: scale(1.15);
+}
+.services-div .bottom .cards .upper {
+  height: 60%;
+  position: relative;
+  overflow: hidden;
+}
+.services-div .bottom .cards .lower {
+  height: 40%;
+  position: relative;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 8px;
+  gap: 11px;
+}
+.services-div .bottom .cards .upper img {
+  height: 100%;
+  width: 100%;
+}
+.services-div .bottom .cards .lower h6 {
+  color: grey;
+  font-family: "Amaranth", sans-serif;
+  font-family: "Josefin Slab", serif;
+  font-size: 19px;
+  line-height: 1.3;
+  color: #5f9ea0;
+  font-weight: 900;
+}
+
+.services-div .bottom .cards .lower p {
+  font-family: "Josefin Sans", sans-serif;
+  line-height: 1.5;
+  font-weight: 300;
+  font-size: 18px;
+  font-weight: 300;
+}
+@media screen and (max-width: 540px) {
+  .services-div .bottom .cards .lower p{
+    font-size: 20px;
+  }
+}
+.services-div .bottom .cards .lower a {
+  text-decoration: none;
+  color: #ed7117;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+/* Why choose Us */
+.why {
+  background-color: ghostwhite;
+  padding: 50px 120px;
+}
+.why .top {
+  text-align: center;
+}
+.why .top h4 {
+  font-family: "Amaranth", sans-serif;
+  font-size: 18px;
+  font-size: 34px;
+  color: grey;
+}
+@media screen and (max-width: 500px) {
+  .why .top h4{
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 300px) {
+  .why .top h4{
+    font-size: 15px;
+  }
+}
+.why .bottom {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+}
+@media screen and (max-width: 540px) {
+  .why .bottom {
+    grid-template-columns: repeat(3, 150px);
+  }
+}
+@media screen and (max-width: 500px) {
+  .why .bottom {
+    grid-template-columns: repeat(3, 120px);
+  }
+}
+@media screen and (max-width: 400px) {
+  .why .bottom {
+    grid-template-columns: repeat(3, 105px);
+  }
+}
+@media screen and (max-width: 300px) {
+  .why .bottom {
+    grid-template-columns: repeat(2, 105px);
+  }
+}
+.why .bottom .cards {
+  background-color: whitesmoke;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 12px;
+}
+.why .bottom .cards img {
+  height: 45px;
+}
+@media screen and (max-width: 500px) {
+  .why .bottom .cards img{
+    height: 40px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .why .bottom .cards img{
+    height: 40px;
+  }
+}
+.why .bottom .cards h6 {
+  font-family: "Josefin Sans", sans-serif;
+  color: #5f9ea0;
+  font-size: 20px;
+  font-weight: 500;
+}
+
