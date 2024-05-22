@@ -19,7 +19,7 @@ This repository contains the source code for a Borehole Drilling website, implem
 
 ### Installation
 To run the gym website locally as a single page application, follow these steps:
-- Clone this repository: git clone `https://github.com/DeveloperWilliams/Gym-website.git`
+- Clone this repository: git clone `https://github.com/DeveloperWilliams/boreholeWebsite.git`
 - Navigate to the project directory: cd borehole
 - Navigate to the project directory: npm install
 - Navigate to the project directory: npm install react-router0dom
