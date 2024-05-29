@@ -9,6 +9,7 @@ This repository contains the source code for a Borehole Drilling website, implem
 ## Technologies Used:
  
  * React
+ * Email Js
 
  ### Silent Features :
 
