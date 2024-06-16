@@ -5,7 +5,6 @@
  * React
  * Email Js
 
-## Images
 
 ### Home Page
 
