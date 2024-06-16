@@ -1,4 +1,4 @@
-# Borehole Drilling Company Website
+# Borehole Drilling Company Website.
 
 ## Technologies Used:
  
@@ -31,7 +31,7 @@ This repository contains the source code for a Borehole Drilling website, implem
 ### Installation
 To run the gym website locally as a single page application, follow these steps:
 - Clone this repository: git clone `https://github.com/DeveloperWilliams/boreholeWebsite.git`
-- Navigate to the project directory: `cd boreholewebsite`
+- Navigate to the project directory: `cd boreholeWebsite`
 - Navigate to the project directory: `npm install`
 
 ### Usage
