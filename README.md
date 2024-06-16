@@ -1,8 +1,9 @@
-# Developer  William Achuchi
+# Borehole Drilling Company Website
 
-[Email Me](mailto:archywilliams2@gmail.com)
-
-## Borehole Drilling Company Website
+## Technologies Used:
+ 
+ * React
+ * Email Js
 
 ## Images
 
@@ -20,10 +21,6 @@
 
 This repository contains the source code for a Borehole Drilling website, implemented as a single page application (SPA) using REACT.
 
-## Technologies Used:
- 
- * React
- * Email Js
 
  ### Silent Features :
 
