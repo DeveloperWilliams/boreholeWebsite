@@ -4,6 +4,20 @@
 
 ## Borehole Drilling Company Website
 
+## Images
+
+### Home Page
+
+![Image One](public/geo3.png)
+
+### About Page
+
+![Image Two](public/geo2.png)
+
+### Contanct Form
+
+![Image Three](public/geo1.png)
+
 This repository contains the source code for a Borehole Drilling website, implemented as a single page application (SPA) using REACT.
 
 ## Technologies Used:
@@ -36,9 +50,9 @@ The single page application design ensures a seamless and interactive user exper
 
 ### Customization
 
-You can customize the hero section to match your website branding and messaging. Here are some key files and components you might want to modify:
+You can customize the hero section to match your website branding and messaging. 
 
-- `src`: 
+
 Feel free to customize the code and design to align with your companys' unique identity and goals.
 
 ### Contributing
